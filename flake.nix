@@ -39,7 +39,7 @@
               vyper
               dprint
               nodejs
-              foundry-bin
+              foundry
             ] ++ lib.optionals pkgs.stdenv.isDarwin [
               pkgs.darwin.apple_sdk.frameworks.AppKit
             ];
